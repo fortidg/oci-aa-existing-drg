@@ -41,6 +41,3 @@ data "oci_network_load_balancer_network_load_balancer" "nlb_trusted" {
   network_load_balancer_id = oci_network_load_balancer_network_load_balancer.nlb_trusted.id
 }
 
-output "test" {
-  value = data.oci_core_private_ips.nlb_trusted_private_ip.private_ips[0].id
-}
