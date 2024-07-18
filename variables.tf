@@ -9,7 +9,7 @@
 # Prefix for all resources created for this deployment in Microsoft Azure
 variable "PREFIX" {
   description = "Added name to each deployed resource"
-  default = "fgt-aa"
+  default = ""
 }
 
 variable "region" {
