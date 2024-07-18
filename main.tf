@@ -533,6 +533,7 @@ resource "oci_network_load_balancer_network_load_balancer" "nlb_trusted" {
 
   is_private                     = true
   is_preserve_source_destination = true
+  is_symmetric_hash_enabled      = true
 }
 
 resource "oci_network_load_balancer_listener" "nlb_trusted_listener" {
